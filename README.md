@@ -12,6 +12,7 @@ This is useful if you're trying to figure out if a GameObject can be safely dele
 
 
 # Usage
+Drop the `.cs` files in your Unity project. Note that `DependencyAssistantMenu.cs` needs to be within `Assets/Editor`.
 
 Unity Dependency Assistant will automatically find drag-and-drop references for any GameObject and all of their attached components. However, if you are using `GameObject.Find` in code, then you will have to annotate your fields with the `Reference` annotation. 
 
